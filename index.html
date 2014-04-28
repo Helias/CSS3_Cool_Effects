@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="tex/javascript">
-function demo(n)
-{
-	
-}
-</script>
+  <script type="text/javascript">
+  function demo(n)
+  {
+    document.getElementsByTag("iframe")[0].src="demo"+n;
+  }
+  </script>
 </head>
 <body>
-<button OnClick="demo('0');">Demo</button>
-<button OnClick="demo('1');">Demo1</button>
-<button OnClick="demo('2');">Demo2</button>
-<button OnClick="demo('3');">Demo3</button>
+  <br><br>
+  <center>
+    <button OnClick="demo('0');">Demo</button>
+    <button OnClick="demo('1');">Demo1</button>
+    <button OnClick="demo('2');">Demo2</button>
+    <button OnClick="demo('3');">Demo3</button>
+    <img src="images/android.png">
+  </center>
 </body>
 </html>
