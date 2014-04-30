@@ -1,0 +1,180 @@
+* {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+/* Border-Radius*/
+.radius {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+}
+.radius:hover {
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  border-radius: 3em;
+}
+
+.radius2 {
+  -webkit-border-radius: 5em 0px;
+  -moz-border-radius: 5em 0px;
+  border-radius: 5em 0px;
+}
+.radius2:hover {
+  -webkit-border-radius: 0px 5em;
+  -moz-border-radius: 0px 5em;
+  border-radius: 0px 5em;
+}
+
+/* Enlargement */
+.enlargement {
+  animation: enlargement 1s;
+
+  -moz-animation-name: enlargement;
+  -moz-animation-iteration-count: once;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 1s;
+
+  -webkit-animation-name: enlargement;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+}
+@keyframes enlargement {
+  from {
+    -o-transform: scale(.01);
+    -ms-transform: scale(.01);
+    transform: scale(.01);
+  }
+  to {
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes enlargement {
+  0% { -moz-transform: scale(.01); }
+  100% { -moz-transform: scale(1); }
+}
+@-webkit-keyframes enlargement {
+  0% { -webkit-transform: scale(.01); }
+  100% { -webkit-transform: scale(1); }
+}
+
+/* Reduction */
+.reduction {
+  animation: reduction 1s;
+
+  -moz-animation-name: reduction;
+  -moz-animation-iteration-count: once;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 1s;
+
+  -webkit-animation-name: reduction;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+}
+@keyframes reduction {
+  from {
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -o-transform: scale(.01);
+    -ms-transform: scale(.01);
+    transform: scale(.01);
+  }
+}
+@-moz-keyframes reduction {
+  0% { -moz-transform: scale(1); }
+  100% { -moz-transform: scale(.01); }
+}
+@-webkit-keyframes reduction {
+  0% { -webkit-transform: scale(1); }
+  100% { -webkit-transform: scale(.01); }
+}
+
+/* Skew effect */
+.skew {
+  animation: skew 1s;
+
+  -moz-animation-name: skew;
+  -moz-animation-iteration-count: once;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 1s;
+
+  -webkit-animation-name: skew;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+}
+@keyframes skew {
+  from {
+    -o-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+  }
+  to {
+    -o-transform: skew(180deg);
+    -ms-transform: skew(180deg);
+    transform: skew(180deg);
+  }
+}
+@-moz-keyframes skew {
+  0% { -moz-transform: skew(0deg); }
+  100% { -moz-transform: skew(180deg); }
+}
+@-webkit-keyframes skew {
+  0% { -webkit-transform: skew(0deg); }
+  100% { -webkit-transform: skew(180deg); }
+}
+
+/* Images blur */
+.blur {
+  -webkit-animation-name: blur;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+}
+@-webkit-keyframes blur {
+  0% { -webkit-filter: blur(10px); }
+  100% { -webkit-filter: blur(0px); }
+}
+
+/* Hue Rotate */
+.hue_rotate {
+  animation: hue_rotate 1s;
+
+  -moz-animation-name: hue_rotate;
+  -moz-animation-iteration-count: once;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 6s;
+
+  -webkit-animation-name: hue_rotate;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 6s;
+}
+@keyframes hue_rotate {
+  from {
+    filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+@-moz-keyframes hue_rotate {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+@-webkit-keyframes hue_rotate {
+  0% { -webkit-filter: hue-rotate(0deg);}
+  100% { -webkit-filter: hue-rotate(360deg); }
+}

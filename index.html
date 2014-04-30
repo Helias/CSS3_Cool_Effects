@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="Animations/style.css">
+  <style>
+  #picture {
+	border: 1px solid #000;
+  }
+  </style>
   <script type="text/javascript">
-  function demo(n)
+  function demo(assign)
   {
-    document.getElementsByTag("iframe")[0].src="demo"+n;
+    document.getElementById("warning").innerHTML = "";
+    document.getElementById("picture").className = "reset";
+    document.getElementById("picture").className = assign;
+    //document.getElementsByTag("iframe")[0].src="demo"+n;
+  }
+  function warn(browser)
+  {
+	document.getElementById("warning").innerHTML = "It works only for "+browser;
   }
   </script>
 </head>
 <body>
-  <br><br>
+  <br>
   <center>
-    <button OnClick="demo('0');">Demo</button>
-    <button OnClick="demo('1');">Demo1</button>
-    <button OnClick="demo('2');">Demo2</button>
-    <button OnClick="demo('3');">Demo3</button>
-    <br>
-    <img src="images/android.png">
+<!--<button OnClick="demo('');">Reset</button>-->
+    <button OnClick="demo('reset');">reset</button>
+    <button OnClick="demo('radius');">Border-Radius</button>
+    <button OnClick="demo('radius2');">Border-Radius (2)</button>
+    <button OnClick="demo('enlargement');">Enlargement</button>
+    <button OnClick="demo('reduction');">Reduction</button>
+    <button OnClick="demo('skew');">Skew</button>
+    <button OnClick="demo('blur'); warn('Chrome/Chromium');">Blur</button>
+    <button OnClick="demo('hue_rotate'); warn('Chrome/Chromium');">Hue Rotate</button>
+    <br><br>
+    <img id="picture" src="images/android.png">
+    <p id="warning"></p>
   </center>
 </body>
 </html>
