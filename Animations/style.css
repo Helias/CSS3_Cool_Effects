@@ -112,3 +112,21 @@
   0% { -webkit-filter: hue-rotate(0deg);}
   100% { -webkit-filter: hue-rotate(360deg); }
 }
+
+/* Move */
+.move {
+  position: absolute;
+  right: 0;
+  animation: move 2s;
+  -webkit-animation-name: move;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-duration: 4s;
+}
+@keyframes move {
+  from { margin-right: 0%; }
+  to { margin-right: 60%; }
+}
+@-webkit-keyframes move {
+  0% { margin-right: 0%; }
+  100% { margin-right: 60%; }
+}
