@@ -2,18 +2,30 @@
 <html>
 <head>
   <link rel="stylesheet" href="Animations/style.css">
+  <link rel="stylesheet" href="Animations/styleauto.css">
   <style>
   #picture {
 	border: 1px solid #000;
   }
   </style>
   <script type="text/javascript">
+  var save = "";
   function demo(assign)
   {
-    document.getElementById("warning").innerHTML = "";
-    document.getElementById("picture").className = "reset";
-    document.getElementById("picture").className = assign;
-    //document.getElementsByTag("iframe")[0].src="demo"+n;
+   document.getElementById("warning").innerHTML = "";
+    if (assign == "auto")
+    {
+      document.getElementById("picture").className = save+assign;
+    }
+    else if (assign == "noauto")
+    {
+      document.getElementById("picture").className = save;
+    }
+    else
+    {
+      save = assign;
+      document.getElementById("picture").className = assign;
+    }
   }
   function warn(browser)
   {
@@ -28,11 +40,13 @@
     <button OnClick="demo('reset');">reset</button>
     <button OnClick="demo('radius');">Border-Radius</button>
     <button OnClick="demo('radius2');">Border-Radius (2)</button>
-    <button OnClick="demo('enlargement');">Enlargement</button>
+    <button OnClick="demo('scaling');">Scaling</button>
     <button OnClick="demo('reduction');">Reduction</button>
     <button OnClick="demo('skew');">Skew</button>
-    <button OnClick="demo('blur'); warn('Chrome/Chromium');">Blur</button>
-    <button OnClick="demo('hue_rotate'); warn('Chrome/Chromium');">Hue Rotate</button>
+    <button OnClick="demo('blur'); warn('Chrome/Chromium and Safari');">Blur</button>
+    <button OnClick="demo('hue_rotate'); warn('Chrome/Chromium and Safari');">Hue Rotate</button>
+    <br>
+    <input type="checkbox" OnChange="if(this.checked == 1){demo('auto');}else{demo('noauto');}">Auto
     <br><br>
     <img id="picture" src="images/android.png">
     <p id="warning"></p>

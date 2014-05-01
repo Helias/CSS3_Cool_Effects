@@ -7,59 +7,34 @@
 }
 
 /* Border-Radius*/
-.radius {
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  border-radius: 1em;
-}
-.radius:hover {
-  -webkit-border-radius: 3em;
-  -moz-border-radius: 3em;
-  border-radius: 3em;
-}
+.radius { border-radius: 1em; }
+.radius:hover { border-radius: 3em; }
 
-.radius2 {
-  -webkit-border-radius: 5em 0px;
-  -moz-border-radius: 5em 0px;
-  border-radius: 5em 0px;
-}
-.radius2:hover {
-  -webkit-border-radius: 0px 5em;
-  -moz-border-radius: 0px 5em;
-  border-radius: 0px 5em;
-}
+.radius2 { border-radius: 5em 0px; }
+.radius2:hover { border-radius: 0px 5em; }
 
-/* Enlargement */
-.enlargement {
-  animation: enlargement 1s;
-
-  -moz-animation-name: enlargement;
-  -moz-animation-iteration-count: once;
-  -moz-animation-timing-function: ease-in;
-  -moz-animation-duration: 1s;
-
-  -webkit-animation-name: enlargement;
+/* Scaling */
+.scaling {
+  animation: scaling 2s;
+  -webkit-animation-name: scaling;
   -webkit-animation-iteration-count: once;
-  -webkit-animation-timing-function: ease-in;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
 }
-@keyframes enlargement {
+@keyframes scaling {
   from {
+	-moz-transform: scale(.01);
     -o-transform: scale(.01);
     -ms-transform: scale(.01);
     transform: scale(.01);
   }
   to {
+    -moz-transform: scale(1);
     -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
 }
-@-moz-keyframes enlargement {
-  0% { -moz-transform: scale(.01); }
-  100% { -moz-transform: scale(1); }
-}
-@-webkit-keyframes enlargement {
+@-webkit-keyframes scaling {
   0% { -webkit-transform: scale(.01); }
   100% { -webkit-transform: scale(1); }
 }
@@ -67,66 +42,49 @@
 /* Reduction */
 .reduction {
   animation: reduction 1s;
-
-  -moz-animation-name: reduction;
-  -moz-animation-iteration-count: once;
-  -moz-animation-timing-function: ease-in;
-  -moz-animation-duration: 1s;
-
   -webkit-animation-name: reduction;
   -webkit-animation-iteration-count: once;
-  -webkit-animation-timing-function: ease-in;
   -webkit-animation-duration: 1s;
 }
 @keyframes reduction {
   from {
+	-moz-transform: scale(1);
     -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
   to {
+	-moz-transform: scale(.01);
     -o-transform: scale(.01);
     -ms-transform: scale(.01);
     transform: scale(.01);
   }
-}
-@-moz-keyframes reduction {
-  0% { -moz-transform: scale(1); }
-  100% { -moz-transform: scale(.01); }
 }
 @-webkit-keyframes reduction {
   0% { -webkit-transform: scale(1); }
   100% { -webkit-transform: scale(.01); }
 }
 
-/* Skew effect */
+/* Skew */
 .skew {
-  animation: skew 1s;
-
-  -moz-animation-name: skew;
-  -moz-animation-iteration-count: once;
-  -moz-animation-timing-function: ease-in;
-  -moz-animation-duration: 1s;
-
+  animation: skew 2s;
   -webkit-animation-name: skew;
   -webkit-animation-iteration-count: once;
-  -webkit-animation-timing-function: ease-in;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
 }
 @keyframes skew {
   from {
+   -moz-transform: skew(0deg);
     -o-transform: skew(0deg);
     -ms-transform: skew(0deg);
+	transform: skew(0deg);
   }
   to {
+	-moz-transform: skew(180deg);
     -o-transform: skew(180deg);
     -ms-transform: skew(180deg);
     transform: skew(180deg);
   }
-}
-@-moz-keyframes skew {
-  0% { -moz-transform: skew(0deg); }
-  100% { -moz-transform: skew(180deg); }
 }
 @-webkit-keyframes skew {
   0% { -webkit-transform: skew(0deg); }
@@ -137,8 +95,7 @@
 .blur {
   -webkit-animation-name: blur;
   -webkit-animation-iteration-count: once;
-  -webkit-animation-timing-function: ease-in;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 3s;
 }
 @-webkit-keyframes blur {
   0% { -webkit-filter: blur(10px); }
@@ -147,32 +104,9 @@
 
 /* Hue Rotate */
 .hue_rotate {
-  animation: hue_rotate 1s;
-
-  -moz-animation-name: hue_rotate;
-  -moz-animation-iteration-count: once;
-  -moz-animation-timing-function: ease-in;
-  -moz-animation-duration: 6s;
-
   -webkit-animation-name: hue_rotate;
   -webkit-animation-iteration-count: once;
-  -webkit-animation-timing-function: ease-in;
   -webkit-animation-duration: 6s;
-}
-@keyframes hue_rotate {
-  from {
-    filter: hue-rotate(0deg);
-    filter: hue-rotate(0deg);
-  }
-  to {
-    filter: hue-rotate(360deg);
-    filter: hue-rotate(360deg);
-    filter: hue-rotate(360deg);
-  }
-}
-@-moz-keyframes hue_rotate {
-  0% { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(360deg); }
 }
 @-webkit-keyframes hue_rotate {
   0% { -webkit-filter: hue-rotate(0deg);}
