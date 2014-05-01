@@ -23,6 +23,7 @@
     }
     else
     {
+      document.getElementById("chk").checked = 0;
       save = assign;
       document.getElementById("picture").className = assign;
     }
@@ -46,7 +47,7 @@
     <button OnClick="demo('blur'); warn('Chrome/Chromium and Safari');">Blur</button>
     <button OnClick="demo('hue_rotate'); warn('Chrome/Chromium and Safari');">Hue Rotate</button>
     <br>
-    <input type="checkbox" OnChange="if(this.checked == 1){demo('auto');}else{demo('noauto');}">Auto
+    <input id="chk" type="checkbox" OnChange="if(this.checked == 1){demo('auto');}else{demo('noauto');}">Auto
     <br><br>
     <img id="picture" src="images/android.png">
     <p id="warning"></p>
