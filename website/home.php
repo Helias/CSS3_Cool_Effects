@@ -28,7 +28,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="home.html">CSS3 Cool Effects</a>
+            <a class="navbar-brand" href="home.php">CSS3 Cool Effects</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
