@@ -29,7 +29,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../home.html">CSS3 Cool Effects</a>
+            <a class="navbar-brand" href="../home.php">CSS3 Cool Effects</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,16 +37,7 @@
             <ul class="nav navbar-nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Effects <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="../effects/radius.html">Radius</a></li>
-                  <li><a href="../effects/">Radius 2</a></li>
-                  <li><a href="../effects/">Scaling</a></li>
-                  <li><a href="../effects/">Reduction</a></li>
-                  <li><a href="../effects/">Skew</a></li>
-                  <li><a href="../effects/">Move</a></li>
-                  <li><a href="../effects/">Blur</a></li>
-                  <li><a href="../effects/">Hue Rotate</a></li>
-                </ul>
+                <?php include "effects-dropdown-menu.php"; ?>
               </li>
               <a class="navbar-brand" href="#">&nbsp;
                 <iframe src="http://ghbtns.com/github-btn.html?user=Helias&repo=CSS3_Cool_Effects&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
@@ -60,30 +51,39 @@
       </nav>
 
     </div>
-    <br><br>
+    <br>
+    <center><h1>This works ONLY on Chrome/Chromium and Safari</h1></center>
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-xs-6">
           <div class="hidden-xs" style="margin-top: 120px;"></div>
-          <div class="radius" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+          <div class="hue_rotate" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
             <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
         </div>
         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-6">
           <font size="8">HTML:</font>
-          <textarea readonly="readonly" cols="45" rows="6">
+          <textarea readonly="readonly" cols="50" rows="5">
 
-  <div class="radius" style="border: 2px solid #33a6e7;">
+  <div class="hue_rotate">
     CSS3 Cool Effects
   </div>
 </textarea>
           <br>
           <font size="8">CSS:</font>
-          <textarea readonly="readonly" cols="45" rows="5">
+          <textarea readonly="readonly" cols="50" rows="9">
+  /* Hue Rotate */
+  /* The example repeat continuously the effect but the code will repeat only once */
+  /* This works ONLY on Chrome/Chromium and Safari */
 
-  /* Border-Radius */
-  .radius { border-radius: 1em; }
-  .radius:hover { border-radius: 3em; }
+  .hue_rotate {
+    -webkit-animation-name: hue_rotate;
+    -webkit-animation-duration: 6s;
+  }
+  @-webkit-keyframes hue_rotate {
+    0% { -webkit-filter: hue-rotate(0deg);}
+    100% { -webkit-filter: hue-rotate(360deg); }
+  }
 </textarea>
         </div>
       </div>

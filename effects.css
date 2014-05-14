@@ -1,9 +1,9 @@
 .radius, .radius:hover, .radius2, .radius2:hover {
-  -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 /* Border-Radius*/
@@ -17,7 +17,6 @@
 .scaling {
   animation: scaling 2s;
   -webkit-animation-name: scaling;
-  -webkit-animation-iteration-count: once;
   -webkit-animation-duration: 2s;
 }
 @keyframes scaling {
@@ -41,10 +40,9 @@
 
 /* Reduction */
 .reduction {
-  animation: reduction 1s;
+  animation: reduction 2s;
   -webkit-animation-name: reduction;
-  -webkit-animation-iteration-count: once;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
 }
 @keyframes reduction {
   from {
@@ -67,10 +65,9 @@
 
 /* Skew */
 .skew {
-  animation: skew 2s;
+  animation: skew 3s;
   -webkit-animation-name: skew;
-  -webkit-animation-iteration-count: once;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
 }
 @keyframes skew {
   from {
@@ -94,7 +91,6 @@
 /* Images blur */
 .blur {
   -webkit-animation-name: blur;
-  -webkit-animation-iteration-count: once;
   -webkit-animation-duration: 3s;
 }
 @-webkit-keyframes blur {
@@ -105,7 +101,6 @@
 /* Hue Rotate */
 .hue_rotate {
   -webkit-animation-name: hue_rotate;
-  -webkit-animation-iteration-count: once;
   -webkit-animation-duration: 6s;
 }
 @-webkit-keyframes hue_rotate {
@@ -119,7 +114,6 @@
   right: 0;
   animation: move 2s;
   -webkit-animation-name: move;
-  -webkit-animation-iteration-count: once;
   -webkit-animation-duration: 4s;
 }
 @keyframes move {

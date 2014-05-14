@@ -36,16 +36,11 @@
             <ul class="nav navbar-nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Effects <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="effects/radius.html">Radius</a></li>
-                  <li><a href="effects/">Radius 2</a></li>
-                  <li><a href="effects/">Scaling</a></li>
-                  <li><a href="effects/">Reduction</a></li>
-                  <li><a href="effects/">Skew</a></li>
-                  <li><a href="effects/">Move</a></li>
-                  <li><a href="effects/">Blur</a></li>
-                  <li><a href="effects/">Hue Rotate</a></li>
-                </ul>
+		<?php
+          $menu = file_get_contents("effects/effects-dropdown-menu.php");
+          $menu = str_replace("../effects", "effects", $menu);
+          echo $menu;
+        ?>
               </li>
               <a class="navbar-brand" href="#">&nbsp;
                 <iframe src="http://ghbtns.com/github-btn.html?user=Helias&repo=CSS3_Cool_Effects&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
