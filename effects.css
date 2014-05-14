@@ -1,4 +1,4 @@
-* {
+.radius, .radius:hover, .radius2, .radius2:hover {
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
