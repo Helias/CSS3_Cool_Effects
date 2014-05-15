@@ -55,44 +55,53 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 hidden-xs">
-          <div class="move" style="border: 2px solid #33a6e7; width: 150px; text-align: center;">
-            <font style="padding: 10px;" size="7px" color="#33a6e7">Move</font>
+          <div class="appear" style="border: 2px solid #33a6e7; width: 175px; text-align: center;">
+            <font style="padding: 10px;" size="7px" color="#33a6e7">Appear</font>
           </div>
         </div>
         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 hidden-xs">
           <font size="8">HTML:</font>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="move">
-    Move
+  <div class="appear">
+    Appear
   </div>
 </textarea>
           <br>
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Move */
+  /* Appear */
   /* The example repeat continuously the effect but the code will repeat only once */
 
-  .move {
-    position: absolute;
-    right: 0;
-    animation: move 2s;
-    -webkit-animation-name: move;
+  .appear {
+    left: 0;
+    animation: appear 2s;
+    animation-iteration-count: infinite;  
+    -webkit-animation-name: appear;
     -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
   }
-  @keyframes move {
-    from { margin-right: 0%; }
-    to { margin-right: 60%; }
+  @keyframes appear {
+    from {
+      opacity:0.1;
+      -ms-transform:translate(0px);
+      transform: translate(0px); }
+    50% { opacity: 0.3; }
+    to {
+      opacity: 1;
+      -ms-transform: translate(200px);
+      transform: translate(200px); }
   }
-  @-webkit-keyframes move {
-    0% { margin-right: 0%; }
-    100% { margin-right: 60%; }
+  @-webkit-keyframes appear {
+    0% { opacity: 0.1; -webkit-transform: translate(0px); }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; -webkit-transform: translate(200px); }
   }
 </textarea>
         </div>
         <div class="visible-xs col-xs-12">
-          <div class="move" style="border: 2px solid #33a6e7; width: 150px; text-align: center;">
-            <font style="padding: 10px;" size="7px" color="#33a6e7">Move</font>
+          <div class="appear" style="border: 2px solid #33a6e7; width: 150px; text-align: center;">
+            <font style="padding: 10px;" size="7px" color="#33a6e7">Appear</font>
           </div>
           <br><br>
         </div>
@@ -100,30 +109,39 @@
           <font size="8">HTML:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="move">
-    Move
+  <div class="appear">
+    Appear
   </div>
 </textarea>
           <br>
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Move */
+  /* Appear */
   /* The example repeat continuously the effect but the code will repeat only once */
 
-  .move {
-    position: absolute;
-    right: 0;
-    animation: move 2s;
-    -webkit-animation-name: move;
+  .appear {
+    left: 0;
+    animation: appear 2s;
+    animation-iteration-count: infinite;  
+    -webkit-animation-name: appear;
     -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
   }
-  @keyframes move {
-    from { margin-right: 0%; }
-    to { margin-right: 60%; }
+  @keyframes appear {
+    from {
+      opacity:0.1;
+      -ms-transform:translate(0px);
+      transform: translate(0px); }
+    50% { opacity: 0.3; }
+    to {
+      opacity: 1;
+      -ms-transform: translate(200px);
+      transform: translate(200px); }
   }
-  @-webkit-keyframes move {
-    0% { margin-right: 0%; }
-    100% { margin-right: 60%; }
+  @-webkit-keyframes appear {
+    0% { opacity: 0.1; -webkit-transform: translate(0px); }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; -webkit-transform: translate(200px); }
   }
 </textarea>
         </div>
