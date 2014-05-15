@@ -52,8 +52,13 @@
 
     </div>
     <br>
-    <center><h1>This works ONLY on Chrome/Chromium and Safari</h1></center>
     <div class="container">
+      <img src="http://www.w3schools.com/images/incompatible_ie.gif">
+      <img src="http://www.w3schools.com/images/incompatible_firefox.gif">
+      <img src="http://www.w3schools.com/images/incompatible_opera.gif">
+      <img src="http://www.w3schools.com/images/compatible_chrome.gif">
+      <img src="http://www.w3schools.com/images/compatible_safari.gif">
+      <br><br>
       <div class="row">
         <div class="col-md-4 hidden-xs">
           <div class="hidden-sm" style="margin-top: 120px;"></div>
@@ -74,7 +79,6 @@
           <textarea readonly="readonly" cols="50" rows="9">
   /* Blur */
   /* The example repeat continuously the effect but the code will repeat only once */
-  /* This works ONLY on Chrome/Chromium and Safari */
 
   .blur {
     -webkit-animation-name: blur;
@@ -107,7 +111,6 @@
           <textarea readonly="readonly" cols="50" rows="9">
   /* Blur */
   /* The example repeat continuously the effect but the code will repeat only once */
-  /* This works ONLY on Chrome/Chromium and Safari */
 
   .blur {
     -webkit-animation-name: blur;

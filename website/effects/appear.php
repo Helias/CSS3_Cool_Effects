@@ -53,6 +53,12 @@
     </div>
     <br><br>
     <div class="container">
+      <img src="http://www.w3schools.com/images/compatible_ie.gif">
+      <img src="http://www.w3schools.com/images/compatible_firefox.gif">
+      <img src="http://www.w3schools.com/images/compatible_opera.gif">
+      <img src="http://www.w3schools.com/images/compatible_chrome.gif">
+      <img src="http://www.w3schools.com/images/compatible_safari.gif">
+      <br><br>
       <div class="row">
         <div class="col-md-4 hidden-xs">
           <div class="appear" style="border: 2px solid #33a6e7; width: 175px; text-align: center;">

@@ -37,7 +37,7 @@
             <ul class="nav navbar-nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Effects <b class="caret"></b></a>
-		<?php include "effects-dropdown-menu.php"; ?>
+                <?php include "effects-dropdown-menu.php"; ?>
               </li>
               <a class="navbar-brand" href="#">&nbsp;
                 <iframe src="http://ghbtns.com/github-btn.html?user=Helias&repo=CSS3_Cool_Effects&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
@@ -53,16 +53,10 @@
     </div>
     <br><br>
     <div class="container">
-      <img src="http://www.w3schools.com/images/compatible_ie.gif">
-      <img src="http://www.w3schools.com/images/compatible_firefox.gif">
-      <img src="http://www.w3schools.com/images/compatible_opera.gif">
-      <img src="http://www.w3schools.com/images/compatible_chrome.gif">
-      <img src="http://www.w3schools.com/images/compatible_safari.gif">
-      <br><br>
       <div class="row">
         <div class="col-md-4 hidden-xs">
           <div class="hidden-sm" style="margin-top: 120px;"></div>
-          <div class="skew" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+          <div class="enlarge" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
             <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
         </div>
@@ -70,43 +64,42 @@
           <font size="8">HTML:</font>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="skew">
+  <div class="enlarge">
     CSS3 Cool Effects
   </div>
 </textarea>
           <br>
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Skew */
+  /* Enlarge */
   /* The example repeat continuously the effect but the code will repeat only once */
 
-  .skew {
-    animation: skew 3s;
-    -webkit-animation-name: skew;
-    -webkit-animation-duration: 3s;
+  .enlarge {
+    animation: enlarge 2s;
+    -webkit-animation-name: enlarge;
+    -webkit-animation-duration: 2s;
   }
-  @keyframes skew {
+  @keyframes scaling {
     from {
-     -moz-transform: skew(0deg);
-      -o-transform: skew(0deg);
-      -ms-transform: skew(0deg);
-      transform: skew(0deg);
+      -moz-transform: scale(.01);
+      -o-transform: scale(.01);
+      -ms-transform: scale(.01);
+      transform: scale(.01);
     }
     to {
-      -moz-transform: skew(180deg);
-      -o-transform: skew(180deg);
-      -ms-transform: skew(180deg);
-      transform: skew(180deg);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
     }
   }
-  @-webkit-keyframes skew {
-    0% { -webkit-transform: skew(0deg); }
-    100% { -webkit-transform: skew(180deg); }
-  }
-</textarea>
+  @-webkit-keyframes scaling {
+    0% { -webkit-transform: scale(.01); }
+    100% { -webkit-transform: scale(1); }
+  }</textarea>
         </div>
-        <div class="visible-xs  col-xs-12">
-          <div class="skew" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+        <div class="visible-xs col-xs-12">
+          <div class="enlarge" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
             <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
           <br><br>
@@ -115,40 +108,39 @@
           <font size="8">HTML:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="skew">
+  <div class="enlarge">
     CSS3 Cool Effects
   </div>
 </textarea>
           <br>
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Skew */
+  /* Scaling */
   /* The example repeat continuously the effect but the code will repeat only once */
 
-  .skew {
-    animation: skew 3s;
-    -webkit-animation-name: skew;
-    -webkit-animation-duration: 3s;
+  .scaling {
+    animation: scaling 2s;
+    -webkit-animation-name: scaling;
+    -webkit-animation-duration: 2s;
   }
-  @keyframes skew {
+  @keyframes scaling {
     from {
-     -moz-transform: skew(0deg);
-      -o-transform: skew(0deg);
-      -ms-transform: skew(0deg);
-      transform: skew(0deg);
+      -moz-transform: scale(.01);
+      -o-transform: scale(.01);
+      -ms-transform: scale(.01);
+      transform: scale(.01);
     }
     to {
-      -moz-transform: skew(180deg);
-      -o-transform: skew(180deg);
-      -ms-transform: skew(180deg);
-      transform: skew(180deg);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
     }
   }
-  @-webkit-keyframes skew {
-    0% { -webkit-transform: skew(0deg); }
-    100% { -webkit-transform: skew(180deg); }
-  }
-</textarea>
+  @-webkit-keyframes scaling {
+    0% { -webkit-transform: scale(.01); }
+    100% { -webkit-transform: scale(1); }
+  }</textarea>
         </div>
       </div>
     </div>
