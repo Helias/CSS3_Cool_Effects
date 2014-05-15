@@ -56,7 +56,7 @@
       <div class="row splash">
         <div class="col-lg-12" id="animationbox">
 	  <div id="cssanimation">
-              <h1 align="center" id="animationbox">Free CSS3 Cool Effects</h1>
+              <h1 align="center" id="animationbox"><b class="hidden-xs">Free</b> CSS3 Cool Effects</h1>
 	  </div>
         </div>
       </div>

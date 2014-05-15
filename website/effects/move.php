@@ -54,13 +54,12 @@
     <br><br>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-xs-6">
-          <div class="hidden-xs" style="margin-top: 120px;"></div>
+        <div class="col-md-4 hidden-xs">
           <div class="move" style="border: 2px solid #33a6e7; width: 150px; text-align: center;">
             <font style="padding: 10px;" size="7px" color="#33a6e7">Move</font>
           </div>
         </div>
-        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-6">
+        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 hidden-xs">
           <font size="8">HTML:</font>
           <textarea readonly="readonly" cols="45" rows="5">
 
@@ -70,6 +69,43 @@
 </textarea>
           <br>
           <font size="8">CSS:</font>
+          <textarea readonly="readonly" cols="45" rows="9">
+  /* Move */
+  /* The example repeat continuously the effect but the code will repeat only once */
+
+  .move {
+    position: absolute;
+    right: 0;
+    animation: move 2s;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+  }
+  @keyframes move {
+    from { margin-right: 0%; }
+    to { margin-right: 60%; }
+  }
+  @-webkit-keyframes move {
+    0% { margin-right: 0%; }
+    100% { margin-right: 60%; }
+  }
+</textarea>
+        </div>
+        <div class="visible-xs col-xs-12">
+          <div class="move" style="border: 2px solid #33a6e7; width: 150px; text-align: center;">
+            <font style="padding: 10px;" size="7px" color="#33a6e7">Move</font>
+          </div>
+          <br><br>
+        </div>
+        <div class="visible-xs col-xs-12">
+          <font size="8">HTML:</font><br><br>
+          <textarea readonly="readonly" cols="45" rows="5">
+
+  <div class="move">
+    Move
+  </div>
+</textarea>
+          <br>
+          <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
   /* Move */
   /* The example repeat continuously the effect but the code will repeat only once */
