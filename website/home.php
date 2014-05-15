@@ -89,6 +89,12 @@
         <div class="col-lg-4 col-sm-4">
           <h3><span class="fa fa-laptop"></span> Cross-browser compatibility</h3>
           <p>CSS3 Cool Effects are released under the GNU-GPL License and maintained by the community on <a target="_blank" href="https://github.com/Helias/CSS3_Cool_Effects">GitHub</a>.</p>
+          <center><img src="http://www.w3schools.com/images/compatible_ie.gif">
+          <img src="http://www.w3schools.com/images/compatible_firefox.gif">
+          <img src="http://www.w3schools.com/images/compatible_opera.gif">
+          <img src="http://www.w3schools.com/images/compatible_chrome.gif">
+          <img src="http://www.w3schools.com/images/compatible_safari.gif"></center>
+          
         </div>
       </div>
     </div>
@@ -102,10 +108,11 @@
     effect[1] = "radius2";
     effect[2] = "scaling";
     effect[3] = "reduction";
+    effect[4] = "appear";
 
     function change_effect()
     {
-	var r = Math.round(Math.random()*4);
+	var r = Math.round(Math.random()*5);
 	if (r == save) { change_effect(); }
 	else { document.getElementById("text").className = effect[r]; save = r; }
     }
