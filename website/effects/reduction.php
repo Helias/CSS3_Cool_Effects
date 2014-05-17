@@ -39,9 +39,6 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Effects <b class="caret"></b></a>
                 <?php include "effects-dropdown-menu.php"; ?>
               </li>
-              <a class="navbar-brand" href="#">&nbsp;
-                <iframe src="http://ghbtns.com/github-btn.html?user=Helias&repo=CSS3_Cool_Effects&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
-              </a>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="https://raw.githubusercontent.com/Helias/CSS3_Cool_Effects/master/effects.css"><i class="fa fa-download"></i>&nbsp;Doanload All Effects</a></li>
@@ -151,6 +148,7 @@
 </textarea>
         </div>
       </div>
+      <?php include "../footer.php"; ?>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

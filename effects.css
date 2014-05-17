@@ -113,7 +113,7 @@
   left: 0;
   animation: appear 2s;
   -webkit-animation-name: appear;
-  -webkit-animation-duration: 4s;
+  -webkit-animation-duration: 2s;
 }
 @keyframes appear {
   from {
