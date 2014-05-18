@@ -73,11 +73,20 @@
 </textarea>
           <br>
           <font size="8">CSS:</font>
-          <textarea readonly="readonly" cols="45" rows="5">
+          <textarea readonly="readonly" cols="45" rows="6">
 
   /* Border-Radius */
   .radius { border-radius: 1em; }
   .radius:hover { border-radius: 3em; }
+            
+  .radius, .radius:hover {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+
 </textarea>
         </div>
         <div class="visible-xs col-xs-12">
@@ -98,11 +107,20 @@
           <br>
           <font size="6">CSS:</font>
           <br><br>
-          <textarea readonly="readonly" cols="45" rows="5">
+          <textarea readonly="readonly" cols="45" rows="6">
 
   /* Border-Radius */
   .radius { border-radius: 1em; }
   .radius:hover { border-radius: 3em; }
+            
+  .radius, .radius:hover {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+
 </textarea>
         </div>
       </div>
