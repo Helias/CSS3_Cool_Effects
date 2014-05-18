@@ -50,11 +50,17 @@
     </div>
     <br><br>
     <div class="container">
+      <img src="http://www.w3schools.com/images/compatible_ie.gif">
+      <img src="http://www.w3schools.com/images/compatible_firefox.gif">
+      <img src="http://www.w3schools.com/images/compatible_opera.gif">
+      <img src="http://www.w3schools.com/images/compatible_chrome.gif">
+      <img src="http://www.w3schools.com/images/compatible_safari.gif">
+      <br><br>
       <div class="row">
         <div class="col-md-4 hidden-xs">
           <div class="hidden-sm" style="margin-top: 120px;"></div>
-          <div class="enlarge" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
-            <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
+          <div class="enlarge" style="border: 2px solid #33a6e7; width: 325px; height: 150px; text-align: center;">
+            <font class="enlarge" style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
         </div>
         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 hidden-xs">
@@ -72,32 +78,31 @@
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .enlarge {
+    left: 0;
+    height: 75px;
     animation: enlarge 2s;
     -webkit-animation-name: enlarge;
     -webkit-animation-duration: 2s;
   }
-  @keyframes scaling {
+  @keyframes enlarge {
     from {
-      -moz-transform: scale(.01);
-      -o-transform: scale(.01);
-      -ms-transform: scale(.01);
-      transform: scale(.01);
-    }
-    to {
-      -moz-transform: scale(1);
-      -o-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-    }
+      opacity: 0.1;
+      width: 0;
+      height: 0;
+      font-size: 2px; }
+    to { opacity: 1; }
   }
-  @-webkit-keyframes scaling {
-    0% { -webkit-transform: scale(.01); }
-    100% { -webkit-transform: scale(1); }
+  @-webkit-keyframes enlarge {
+    0% { opacity: 0.1;
+      width: 0;
+      height: 0;
+      font-size: 2px; }
+    100% { opacity: 1; }
   }</textarea>
         </div>
         <div class="visible-xs col-xs-12">
-          <div class="enlarge" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
-            <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
+          <div class="enlarge" style="border: 2px solid #33a6e7; width: 325px; height: 150px; text-align: center;">
+            <font style="padding: 10px;" class="enlarge" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
           <br><br>
         </div>
@@ -112,31 +117,30 @@
           <br>
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Scaling */
+  /* Enlarge */
   /* The example repeat continuously the effect but the code will repeat only once */
 
-  .scaling {
-    animation: scaling 2s;
-    -webkit-animation-name: scaling;
+  .enlarge {
+    left: 0;
+    height: 75px;
+    animation: enlarge 2s;
+    -webkit-animation-name: enlarge;
     -webkit-animation-duration: 2s;
   }
-  @keyframes scaling {
+  @keyframes enlarge {
     from {
-      -moz-transform: scale(.01);
-      -o-transform: scale(.01);
-      -ms-transform: scale(.01);
-      transform: scale(.01);
-    }
-    to {
-      -moz-transform: scale(1);
-      -o-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-    }
+      opacity: 0.1;
+      width: 0;
+      height: 0;
+      font-size: 2px; }
+    to { opacity: 1; }
   }
-  @-webkit-keyframes scaling {
-    0% { -webkit-transform: scale(.01); }
-    100% { -webkit-transform: scale(1); }
+  @-webkit-keyframes enlarge {
+    0% { opacity: 0.1;
+      width: 0;
+      height: 0;
+      font-size: 2px; }
+    100% { opacity: 1; }
   }</textarea>
         </div>
       </div>

@@ -145,25 +145,25 @@
 /* Enlarge */
 .enlarge {
   left: 0;
+  height: 75px;
   animation: enlarge 2s;
   animation-iteration-count: infinite;  
   -webkit-animation-name: enlarge;
-  -webkit-animation-duration: 4s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
 }
 @keyframes enlarge {
   from {
-    opacity:0.1;
+    opacity: 0.1;
     width: 0;
-    height: 0; }
-  50% { opacity: 0.3; }
-  to {
-    opacity: 1;
-    height: 125px;
-    width: 450px; }
+    height: 0;
+	font-size: 2px; }
+  to { opacity: 1; }
 }
 @-webkit-keyframes enlarge {
-  0% { opacity: 0.1; -webkit-transform: translate(0px); }
-  50% { opacity: 0.3; }
-  100% { opacity: 1; -webkit-transform: translate(200px); }
+  0% { opacity: 0.1;
+    width: 0;
+    height: 0;
+	font-size: 2px; }
+  100% { opacity: 1; }
 }
