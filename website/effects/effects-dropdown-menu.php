@@ -7,6 +7,7 @@
                   <li><a href="../effects/reduction.php">Reduction</a></li>
                   <li><a href="../effects/skew.php">Skew</a></li>
                   <li><a href="../effects/appear.php">Appear</a></li>
+                  <li><a href="../effects/show.php">Show</a></li>
                   <li><a href="../effects/blur.php">Blur</a></li>
                   <li><a href="../effects/hue_rotate.php">Hue Rotate</a></li>
                 </ul>
