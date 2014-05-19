@@ -59,7 +59,7 @@
       <div class="row">
         <div class="col-md-4 hidden-xs">
           <div class="hidden-sm" style="margin-top: 120px;"></div>
-          <div class="show" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+          <div class="button3d" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
             <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
         </div>
@@ -67,7 +67,7 @@
           <font size="8">HTML:</font>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="show">
+  <div class="button3d">
     CSS3 Cool Effects
   </div>
 </textarea>
@@ -77,7 +77,9 @@
   /* Show */
   /* The example repeat continuously the effect but the code will repeat only once */
 
-  .show, .show * {    
+  .show, .show * {
+    left: 0;
+    height: 75px;
     animation: show 2s;
     -webkit-animation-name: show;
     -webkit-animation-duration: 2s;
@@ -88,13 +90,13 @@
     to { opacity: 1; }
   }
   @-webkit-keyframes show {
-    0% { opacity: 0.1; width: 0; font-size: 1px;}
+    0% { opacity: 0.1; width: 0; }
     30% { font-size: 1px; }
     100% { opacity: 1; }
   }</textarea>
         </div>
         <div class="visible-xs col-xs-12">
-          <div class="show" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+          <div class="button3d" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
             <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
           <br><br>
@@ -103,7 +105,7 @@
           <font size="8">HTML:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="show">
+  <div class="button3d">
     CSS3 Cool Effects
   </div>
 </textarea>
@@ -114,6 +116,8 @@
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .show, .show * {
+    left: 0;
+    height: 75px;
     animation: show 2s;
     -webkit-animation-name: show;
     -webkit-animation-duration: 2s;

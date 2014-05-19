@@ -78,8 +78,6 @@
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .enlarge, .enlarge * {
-    left: 0;
-    height: 75px;
     animation: enlarge 2s;
     -webkit-animation-name: enlarge;
     -webkit-animation-duration: 2s;
@@ -121,8 +119,6 @@
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .enlarge, .enlarge * {
-    left: 0;
-    height: 75px;
     animation: enlarge 2s;
     -webkit-animation-name: enlarge;
     -webkit-animation-duration: 2s;

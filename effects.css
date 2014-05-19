@@ -110,7 +110,6 @@
 
 /* Appear */
 .appear {
-  left: 0;
   animation: appear 2s;
   -webkit-animation-name: appear;
   -webkit-animation-duration: 2s;
@@ -133,14 +132,10 @@
 }
 
 /* Enlarge */
-.enlarge {
-  left: 0;
-  height: 75px;
+.enlarge, .enlarge *{
   animation: enlarge 2s;
-  animation-iteration-count: infinite;  
   -webkit-animation-name: enlarge;
   -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
 }
 @keyframes enlarge {
   from {
@@ -178,13 +173,9 @@
 
 /* Show */
 .show, .show * {
-  left: 0;
-  height: 75px;
   animation: show 2s;
-  animation-iteration-count: infinite;  
   -webkit-animation-name: show;
   -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
 }
 @keyframes show {
   from { opacity: 0.1; width: 0; font-size: 1px;}

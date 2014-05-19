@@ -9,7 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/effects.css" rel="stylesheet">
+    <link href="../effects.css" rel="stylesheet">
     <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -106,10 +106,13 @@
     effect[2] = "scaling";
     effect[3] = "reduction";
     effect[4] = "appear";
+    effect[5] = "target";
+    effect[6] = "enlarge";
+    effect[7] = "show";
 
     function change_effect()
     {
-	var r = Math.round(Math.random()*5);
+	var r = Math.round(Math.random()*8);
 	if (r == save) { change_effect(); }
 	else { document.getElementById("text").className = effect[r]; save = r; }
     }

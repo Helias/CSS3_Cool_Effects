@@ -118,7 +118,6 @@
 
 /* Appear */
 .appear {
-  left: 0;
   animation: appear 2s;
   animation-iteration-count: infinite;  
   -webkit-animation-name: appear;
@@ -144,7 +143,6 @@
 
 /* Enlarge */
 .enlarge, .enlarge * {
-  left: 0;
   animation: enlarge 2s;
   animation-iteration-count: infinite;  
   -webkit-animation-name: enlarge;
@@ -187,8 +185,6 @@
 
 /* Show */
 .show, .show * {
-  left: 0;
-  height: 75px;
   animation: show 2s;
   animation-iteration-count: infinite;  
   -webkit-animation-name: show;
@@ -204,4 +200,20 @@
   0% { opacity: 0.1; width: 0; }
   30% { font-size: 1px; }
   100% { opacity: 1; }
+}
+
+/* 3D Buttons */
+.button3d, .button3d:hover {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.button3d:hover {
+  -webkit-transform: rotateY(120deg);
+  -o-transform: rotateY(120deg);
+  -ms-transform: rotateY(120deg);
+  transform: rotateY(75deg);
 }

@@ -77,7 +77,6 @@
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .appear {
-    left: 0;
     animation: appear 2s;
     -webkit-animation-name: appear;
     -webkit-animation-duration: 2s;
@@ -121,7 +120,6 @@
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .appear {
-    left: 0;
     animation: appear 2s;
     -webkit-animation-name: appear;
     -webkit-animation-duration: 4s;
