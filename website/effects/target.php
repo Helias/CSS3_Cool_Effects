@@ -41,7 +41,7 @@
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="https://raw.githubusercontent.com/Helias/CSS3_Cool_Effects/master/effects.css"><i class="fa fa-download"></i>&nbsp;Doanload All Effects</a></li>
+              <li><a href="https://raw.githubusercontent.com/Helias/CSS3_Cool_Effects/master/effects.css"><i class="fa fa-Download"></i>&nbsp;Download All Effects</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

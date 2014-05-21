@@ -44,7 +44,7 @@
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="https://raw.githubusercontent.com/Helias/CSS3_Cool_Effects/master/effects.css"><i class="fa fa-download"></i>&nbsp;Doanload All Effects</a></li>
+              <li><a href="https://raw.githubusercontent.com/Helias/CSS3_Cool_Effects/master/effects.css"><i class="fa fa-download"></i>&nbsp;Download All Effects</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -85,7 +85,7 @@
         </div>
         <div class="col-lg-4 col-sm-4">
           <h3><span class="fa fa-laptop"></span> Cross-browser compatibility</h3>
-          <p>CSS3 Cool Effects are released under the GNU-GPL License and maintained by the community on <a target="_blank" href="https://github.com/Helias/CSS3_Cool_Effects">GitHub</a>.</p>
+          <p>Cross-browser compatibility, CSS3 Cool Effects it's a project that take care about the compatibility of all browsers.</p>
           <center><img src="http://www.w3schools.com/images/compatible_ie.gif">
           <img src="http://www.w3schools.com/images/compatible_firefox.gif">
           <img src="http://www.w3schools.com/images/compatible_opera.gif">
