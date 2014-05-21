@@ -51,9 +51,9 @@
       </nav>
 
       <div class="row splash">
-        <div class="col-lg-12" id="animationbox">
-	  <div id="cssanimation">
-              <h1 align="center" id="animationbox"><span class="hidden-xs">Free</span> CSS3 Cool Effects</h1>
+        <div class="col-lg-12 presentationbox">
+	  <div class="presentation">
+              <h1 align="center" class="presentationbox"><span class="hidden-xs">Free</span> CSS3 Cool Effects</h1>
 	  </div>
         </div>
       </div>
