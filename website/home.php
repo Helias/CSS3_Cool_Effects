@@ -61,7 +61,7 @@
 	<div class="row">
 	  <div class="col-lg-12">
 	    <br><br><br>
-	    <center>
+	    <center style="height: 75px;">
 	    <div id="text" style="border: 2px solid #33a6e7; width: 300px;">
 	      <font style="padding: 10px;" size="6" color="#33a6e7">CSS3 Cool Effects</font>
 	     <div>   
@@ -84,8 +84,7 @@
           <p>CSS3 Cool Effects are released under the GNU-GPL License and maintained by the community on <a target="_blank" href="https://github.com/Helias/CSS3_Cool_Effects">GitHub</a>.</p>
         </div>
         <div class="col-lg-4 col-sm-4">
-          <h3><span class="fa fa-laptop"></span> Cross-browser compatibility</h3>
-          <p>Cross-browser compatibility, CSS3 Cool Effects it's a project that take care about the compatibility of all browsers.</p>
+          <h3><span class="fa fa-laptop"></span> Almost all effects supports all most common browsers.</p>
           <center><img src="http://www.w3schools.com/images/compatible_ie.gif">
           <img src="http://www.w3schools.com/images/compatible_firefox.gif">
           <img src="http://www.w3schools.com/images/compatible_opera.gif">
