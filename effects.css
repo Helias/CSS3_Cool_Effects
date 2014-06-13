@@ -115,20 +115,14 @@
   -webkit-animation-duration: 2s;
 }
 @keyframes appear {
-  from {
-    opacity:0.1;
-	-ms-transform:translate(0px);
-    transform: translate(0px); }
+  from { opacity:0.1; }
   50% { opacity: 0.3; }
-  to {
-    opacity: 1;
-	-ms-transform: translate(200px);
-    transform: translate(200px); }
+  to { opacity: 1; }
 }
 @-webkit-keyframes appear {
-  0% { opacity: 0.1; -webkit-transform: translate(0px); }
+  0% { opacity: 0.1; }
   50% { opacity: 0.3; }
-  100% { opacity: 1; -webkit-transform: translate(200px); }
+  100% { opacity: 1; }
 }
 
 /* Enlarge */

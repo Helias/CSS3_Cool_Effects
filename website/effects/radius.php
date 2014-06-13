@@ -90,7 +90,7 @@
 </textarea>
         </div>
         <div class="visible-xs col-xs-12">
-          <div class="radius" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+          <div class="radius" style="border: 2px solid #33a6e7; width: 350px; text-align: center;">
             <font style="padding: 10px;" size="6px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
           <br><br>
@@ -98,7 +98,7 @@
         <div class="visible-xs col-xs-12">
           <font size="6">HTML:</font>
           <br><br>
-          <textarea readonly="readonly" cols="45" rows="6">
+          <textarea readonly="readonly" cols="40" rows="6">
 
   <div class="radius" style="border: 2px solid #33a6e7;">
     CSS3 Cool Effects
@@ -107,7 +107,7 @@
           <br>
           <font size="6">CSS:</font>
           <br><br>
-          <textarea readonly="readonly" cols="45" rows="6">
+          <textarea readonly="readonly" cols="40" rows="6">
 
   /* Border-Radius - coded by Helias - css3.openprogrammers.it */
   .radius { border-radius: 1em; }
@@ -159,7 +159,7 @@
 </textarea>
         </div>
         <div class="visible-xs col-xs-12">
-          <div class="radius2" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
+          <div class="radius2" style="border: 2px solid #33a6e7; width: 350px; text-align: center;">
             <font style="padding: 10px;" size="6px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
           <br><br>
@@ -167,7 +167,7 @@
         <div class="visible-xs col-xs-12">
           <font size="6">HTML:</font>
           <br><br>
-          <textarea readonly="readonly" cols="45" rows="6">
+          <textarea readonly="readonly" cols="40" rows="6">
 
   <div class="radius2" style="border: 2px solid #33a6e7;">
     CSS3 Cool Effects
@@ -176,7 +176,7 @@
           <br>
           <font size="6">CSS:</font>
           <br><br>
-          <textarea readonly="readonly" cols="45" rows="5">
+          <textarea readonly="readonly" cols="40" rows="5">
 
   /* Border-Radius */
   .radius2 { border-radius: 5em 0px; }

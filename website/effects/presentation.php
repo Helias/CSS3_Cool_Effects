@@ -189,7 +189,7 @@
 	<div class="visible-xs col-xs-12">
 	  <div class="presentationbox">
 	    <div class="presentation">
-	      <h1 align="center" class="presentationbox" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">CSS3 Cool Effects</h1>
+	      <h1 align="center" class="presentationbox" style="border: 2px solid #33a6e7; width: 350px; text-align: center;">CSS3 Cool Effects</h1>
 	  </div>
         </div>
           <br><br>
@@ -197,7 +197,7 @@
         <div class="visible-xs col-xs-12">
           <font size="6">HTML:</font>
           <br><br>
-          <textarea readonly="readonly" cols="45" rows="6">
+          <textarea readonly="readonly" cols="40" rows="6">
 
 <div class="presentationbox">
   <div class="presentation">
@@ -208,7 +208,7 @@
           <br>
           <font size="6">CSS:</font>
           <br><br>
-          <textarea readonly="readonly" cols="50" rows="9">
+          <textarea readonly="readonly" cols="40" rows="9">
   /* Presentation - coded by Helias - css3.openprogrammers.it */
   /* The example repeats continuously the effect, but the code will repeat only once */
 

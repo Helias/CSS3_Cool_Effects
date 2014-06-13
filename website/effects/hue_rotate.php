@@ -88,22 +88,22 @@
 </textarea>
         </div>
         <div class="visible-xs col-xs-12">
-          <div class="hue_rotate" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">
-            <font style="padding: 10px;" size="7px" color="#33a6e7">CSS3 Cool Effects</font>
+          <div class="hue_rotate" style="border: 2px solid #33a6e7; width: 350px; text-align: center;">
+            <font style="padding: 10px;" size="6px" color="#33a6e7">CSS3 Cool Effects</font>
           </div>
           <br><br>
         </div>
         <div class="visible-xs col-xs-12">
-          <font size="8">HTML:</font><br><br>
-          <textarea readonly="readonly" cols="50" rows="5">
+          <font size="6">HTML:</font><br><br>
+          <textarea readonly="readonly" cols="40" rows="5">
 
   <div class="hue_rotate">
     CSS3 Cool Effects
   </div>
 </textarea>
           <br>
-          <font size="8">CSS:</font><br><br>
-          <textarea readonly="readonly" cols="50" rows="9">
+          <font size="6">CSS:</font><br><br>
+          <textarea readonly="readonly" cols="40" rows="9">
   /* Hue Rotate - coded by Helias - css3.openprogrammers.it */
   /* The example repeats continuously the effect, but the code will repeat only once */
 
