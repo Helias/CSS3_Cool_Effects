@@ -74,7 +74,7 @@
           <br>
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Target */
+  /* Target - coded by Helias - css3.openprogrammers.it */
   .target, .target:hover {
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -109,7 +109,7 @@
           <br>
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
-/* Target */
+/* Target - coded by Helias - css3.openprogrammers.it */
 .target, .target:hover {
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;

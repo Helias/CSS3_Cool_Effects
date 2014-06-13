@@ -74,7 +74,7 @@
           <br>
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Show */
+  /* Show - coded by Helias - css3.openprogrammers.it */
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .show, .show * {
@@ -112,7 +112,7 @@
           <br>
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
-  /* Show */
+  /* Show - coded by Helias - css3.openprogrammers.it */
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .show, .show * {

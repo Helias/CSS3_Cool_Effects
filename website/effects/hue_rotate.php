@@ -74,7 +74,7 @@
           <br>
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="50" rows="9">
-  /* Hue Rotate */
+  /* Hue Rotate - coded by Helias - css3.openprogrammers.it */
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .hue_rotate {
@@ -104,7 +104,7 @@
           <br>
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="50" rows="9">
-  /* Hue Rotate */
+  /* Hue Rotate - coded by Helias - css3.openprogrammers.it */
   /* The example repeat continuously the effect but the code will repeat only once */
 
   .hue_rotate {
