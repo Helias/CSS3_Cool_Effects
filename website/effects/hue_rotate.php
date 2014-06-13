@@ -75,7 +75,7 @@
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="50" rows="9">
   /* Hue Rotate - coded by Helias - css3.openprogrammers.it */
-  /* The example repeat continuously the effect but the code will repeat only once */
+  /* The example repeats continuously the effect, but the code will repeat only once */
 
   .hue_rotate {
     -webkit-animation-name: hue_rotate;
@@ -105,7 +105,7 @@
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="50" rows="9">
   /* Hue Rotate - coded by Helias - css3.openprogrammers.it */
-  /* The example repeat continuously the effect but the code will repeat only once */
+  /* The example repeats continuously the effect, but the code will repeat only once */
 
   .hue_rotate {
     -webkit-animation-name: hue_rotate;

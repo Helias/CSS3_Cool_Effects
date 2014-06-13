@@ -75,7 +75,7 @@
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="45" rows="9">
   /* Skew - coded by Helias - css3.openprogrammers.it */
-  /* The example repeat continuously the effect but the code will repeat only once */
+  /* The examples repeat continuously the effect, but the code will repeat only once */
 
   .skew {
     animation: skew 3s;
@@ -120,7 +120,7 @@
           <font size="8">CSS:</font><br><br>
           <textarea readonly="readonly" cols="45" rows="9">
   /* Skew - coded by Helias - css3.openprogrammers.it */
-  /* The example repeat continuously the effect but the code will repeat only once */
+  /* The example repeats continuously the effect, but the code will repeat only once */
 
   .skew {
     animation: skew 3s;
