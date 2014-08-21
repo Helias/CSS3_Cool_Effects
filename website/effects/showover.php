@@ -62,7 +62,7 @@
           <div class="showoverbox">
             <div class="showover text-center">
 		<div class="text-center" style="height: 210px; width: 250px; overflow: hidden;">
-		  <img src="http://shinworld.altervista.org/CSS3_Cool_Effects/images/CSS3.jpg" alt="CSS3 Cool Effects">
+		  <img src="http://shinworld.altervista.org/CSS3_Cool_Effects/images/CSS3.jpg" alt="CSS3 Cool Effects" class="img-responsive">
 		</div>
 	      <br>
                 <button class="btn btn-primary btn-lg">Button</button>
@@ -75,7 +75,7 @@
 	  <div class="showoverbox">
             <div class="showover text-center">
 		<div class="text-center" style="height: 210px; width: 250px; overflow: hidden;">
-		  <img src="../images/CSS3.jpg" alt="CSS3 Cool Effects" class="img-responsive">
+		  <img src="../images/CSS3.jpg" alt="CSS3 Cool Effects" width="100%" height="100%" >
 		</div>
 	      <br>
                 <button class="btn btn-primary btn-lg">Button</button>
@@ -127,7 +127,7 @@
         <div class="visible-xs col-xs-12">
           <div class="showoverbox">
             <div class="showover text-center">
-              <img src="../images/CSS3.jpg" alt="CSS3 Cool Effects">
+              <img src="../images/CSS3.jpg" alt="CSS3 Cool Effects" class="img-responsive">
               <br><br>
               <button class="btn btn-primary btn-lg">Button</button>
             </div>
@@ -139,7 +139,7 @@
 	  <div class="showoverbox">
             <div class="showover text-center">
 		<div class="text-center" style="height: 210px; width: 250px; overflow: hidden;">
-		  <img src="http://shinworld.altervista.org/CSS3_Cool_Effects/images/CSS3.jpg" alt="CSS3 Cool Effects">
+		  <img src="http://shinworld.altervista.org/CSS3_Cool_Effects/images/CSS3.jpg" alt="CSS3 Cool Effects" width="100%" height="100%">
 		</div>
 	      <br>
                 <button class="btn btn-primary btn-lg">Button</button>
