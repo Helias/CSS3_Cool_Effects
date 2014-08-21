@@ -61,26 +61,26 @@
           <div class="hidden-sm" style="margin-top: 120px;"></div>
           <div class="showoverbox">
             <div class="showover text-center">
-              <h2>CSS3</h2>
-              <h2>Cool</h2>
-              <h2>Effects</h2>
-              <br><br>
-              <button class="btn btn-primary btn-lg">Button</button>
+		<div class="text-center" style="height: 210px; width: 250px; overflow: hidden;">
+		  <img src="http://shinworld.altervista.org/CSS3_Cool_Effects/images/CSS3.jpg" alt="CSS3 Cool Effects">
+		</div>
+	      <br>
+                <button class="btn btn-primary btn-lg">Button</button>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 hidden-xs">
           <font size="8">HTML:</font>
           <textarea readonly="readonly" cols="45" rows="5">
-    <div class="showoverbox">
-      <div class="showover text-center">
-        <h2>CSS3</h2>
-        <h2>Cool</h2>
-        <h2>Effects</h2>
-        <br><br>
-        <button class="btn btn-primary btn-lg">Button</button>
-      </div>
-    </div>
+	  <div class="showoverbox">
+            <div class="showover text-center">
+		<div class="text-center" style="height: 210px; width: 250px; overflow: hidden;">
+		  <img src="../images/CSS3.jpg" alt="CSS3 Cool Effects" class="img-responsive">
+		</div>
+	      <br>
+                <button class="btn btn-primary btn-lg">Button</button>
+            </div>
+          </div>
           </textarea>
           <br>
           <font size="8">CSS:</font>
@@ -95,7 +95,8 @@
 }
 
 .showoverbox {
-  height: 480px;
+  height: 420px;
+  width: 275px;
 }
 
 .showover {
@@ -103,7 +104,6 @@
   border: 10px solid #ededed;
   padding: 10px 0px 0px 0px;
   width: 100%;
-  max-width: 340px;
 }
 
 .showover div {
@@ -119,21 +119,15 @@
   }
   
   .showover:hover {
-    height: 300px;
+    height: 320px;
     opacity: 1; 
-  }
-
-  .showoverbox {
-    height: 400px;
   }
 }</textarea>
         </div>
         <div class="visible-xs col-xs-12">
           <div class="showoverbox">
             <div class="showover text-center">
-              <h2>CSS3</h2>
-              <h2>Cool</h2>
-              <h2>Effects</h2>
+              <img src="../images/CSS3.jpg" alt="CSS3 Cool Effects">
               <br><br>
               <button class="btn btn-primary btn-lg">Button</button>
             </div>
@@ -142,15 +136,15 @@
         <div class="visible-xs col-xs-12">
           <font size="6">HTML:</font><br><br>
           <textarea readonly="readonly" cols="40" rows="5">
-
-    <div class="showoverbox">
-      <div class="showover text-center">
-        <h2>CSS3</h2>
-        <h2>Cool</h2>
-        <h2>Effects</h2>
-        <br><br>
-        <button class="btn btn-primary btn-lg">Button</button>
-      </div>
+	  <div class="showoverbox">
+            <div class="showover text-center">
+		<div class="text-center" style="height: 210px; width: 250px; overflow: hidden;">
+		  <img src="http://shinworld.altervista.org/CSS3_Cool_Effects/images/CSS3.jpg" alt="CSS3 Cool Effects">
+		</div>
+	      <br>
+                <button class="btn btn-primary btn-lg">Button</button>
+            </div>
+          </div>
     </div>
 </textarea>
           <br>
@@ -166,7 +160,8 @@
 }
 
 .showoverbox {
-  height: 480px;
+  height: 420px;
+  width: 275px;
 }
 
 .showover {
@@ -174,7 +169,6 @@
   border: 10px solid #ededed;
   padding: 10px 0px 0px 0px;
   width: 100%;
-  max-width: 340px;
 }
 
 .showover div {
@@ -190,14 +184,11 @@
   }
   
   .showover:hover {
-    height: 300px;
+    height: 320px;
     opacity: 1; 
   }
-
-  .showoverbox {
-    height: 400px;
-  }
-}</textarea>
+}
+</textarea>
         </div>
       </div>
       <?php include "../footer.php"; ?>

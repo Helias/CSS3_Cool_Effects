@@ -187,7 +187,8 @@
 }
 
 .showoverbox {
-  height: 400px;
+  height: 420px;
+  width: 275px;
 }
 
 .showover {
@@ -195,7 +196,6 @@
   border: 10px solid #ededed;
   padding: 10px 0px 0px 0px;
   width: 100%;
-  max-width: 340px;
 }
 
 .showover div {
@@ -211,7 +211,7 @@
   }
   
   .showover:hover {
-    height: 300px;
+    height: 320px;
     opacity: 1; 
   }
 }
