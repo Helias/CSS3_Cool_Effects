@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -36,11 +36,11 @@
             <ul class="nav navbar-nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Effects <b class="caret"></b></a>
-		<?php
-          $menu = file_get_contents("effects/effects-dropdown-menu.php");
-          $menu = str_replace("../effects", "effects", $menu);
-          echo $menu;
-        ?>
+		<ul class="dropdown-menu">
+                  <li><a href="all.php">All</a></li>
+                  <li><a href="images.php">Images</a></li>
+                  <li><a href="random.php">Random</a></li>
+                </ul>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -92,7 +92,22 @@
           <img src="http://www.w3schools.com/images/compatible_safari.gif"></center>
         </div>
       </div>
-      <?php include "footer.php"; ?>
+        <hr>
+        <div class="row">
+          <div class="col-xs-3 col-lg-offset-1">
+            <h2>Star</h2>
+            <iframe src="http://ghbtns.com/github-btn.html?user=Helias&amp;repo=CSS3_Cool_Effects&amp;type=watch&amp;size=large" allowtransparency="true" scrolling="0" frameborder="0"></iframe>
+          </div>
+          <div class="col-xs-3">
+            <h2>Fork</h2>
+            <iframe src="http://ghbtns.com/github-btn.html?user=Helias&amp;repo=CSS3_Cool_Effects&amp;type=fork&amp;size=large" allowtransparency="true" scrolling="0" frameborder="0"></iframe>
+          </div>
+          <div class="col-xs-3" >
+            <h2>Follow</h2>
+            <iframe src="http://ghbtns.com/github-btn.html?user=Helias&amp;type=follow&amp;size=large" allowtransparency="true" scrolling="0" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
