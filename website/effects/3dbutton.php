@@ -6,7 +6,6 @@
       <img src="http://www.w3schools.com/images/compatible_opera.gif">
       <img src="http://www.w3schools.com/images/compatible_chrome.gif">
       <img src="http://www.w3schools.com/images/compatible_safari.gif">
-      &nbsp;&nbsp;
       <br><br>
       <div class="row">
         <div class="col-md-4 hidden-xs">
