@@ -340,6 +340,110 @@
 	}
 }
 
+.presentationx {
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+}
+.presentationx .presentationboxx {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	background-color: #33a6e7;
+	font-size: 10px;
+	color: #FFF;
+	text-align: center;
+	margin: 0 auto;
+	top: 0;
+	position: relative;
+	-webkit-animation-name: presentationx;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-name: presentationx;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@-webkit-keyframes presentationx {
+	0% {
+		padding: 0;
+		background-color:rgba(60,60,60,0);
+		height:0px;
+		width:0px;
+		border-radius:10px;
+		font-size:10px;
+		color:#FFF;
+        top:50px;
+	}
+	15% {
+		height:1px;
+		width:10px;
+		border-radius:10px;
+		background-color:rgba(60,60,60,4);
+	}
+	25% {
+		height:1px;
+		width:100%;
+        top:50px;
+	}
+	40% {
+		height:100%;
+		background-color:rgba(60,60,60,1);
+        top:0;
+	}
+	60% {
+		background-color:rgba(0,136,204,1);
+		font-size:0px;
+	}
+	70% {
+		font-size:10px;
+	}
+	100% {
+		background-color: #33a6e7;
+	}
+}
+@keyframes presentationx {
+	0% {
+		padding: 0;
+		background-color:rgba(60,60,60,0);
+		height:0px;
+		width:0px;
+		border-radius:10px;
+		font-size:10px;
+		color:#FFF;
+        top:50px;
+	}
+	15% {
+		height:1px;
+		width:10px;
+		border-radius:10px;
+		background-color:rgba(60,60,60,4);
+	}
+	25% {
+		height:1px;
+		width:100%;
+        top:50px;
+	}
+	40% {
+		height:100%;
+		background-color:rgba(60,60,60,1);
+        top:0;
+	}
+	60% {
+		background-color:rgba(0,136,204,1);
+		font-size:0px;
+	}
+	70% {
+		font-size:10px;
+	}
+	100% {
+		background-color: #33a6e7;
+	}
+}
+
 /* 3D Buttons */
 .button3d, .button3d:hover {
   -webkit-transition: all .5s ease-in-out;

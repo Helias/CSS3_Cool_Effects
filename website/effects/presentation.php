@@ -33,7 +33,7 @@
           <br>
           <font size="8">CSS:</font>
           <textarea readonly="readonly" cols="50" rows="9">
-  /* Presentation - coded by Helias - css3.openprogrammers.it */
+  /* Presentation - coded by HTMLlion */
   /* The example repeats continuously the effect, but the code will repeat only once */
 
 .presentation {
@@ -160,7 +160,7 @@
           <font size="6">CSS:</font>
           <br><br>
           <textarea readonly="readonly" cols="40" rows="9">
-  /* Presentation - coded by Helias - css3.openprogrammers.it */
+  /* Presentation - coded by HTMLlion */
   /* The example repeats continuously the effect, but the code will repeat only once */
 
 .presentation {
