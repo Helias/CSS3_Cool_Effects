@@ -62,7 +62,7 @@
           </div>
           <div attribute="show">
             <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 0px;" size="5px" color="#33a6e7">SHOW</font>
+              <font style="padding: 0px;" color="#33a6e7">SHOW</font>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
           </div>
           <div attribute="target">
             <div class="target" style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">TARGET</font>
+              <font style="padding: 7px;" color="#33a6e7">TARGET</font>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
           </div>
           <div attribute="radius">
             <div class="radius" style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">RADIUS</font>
+              <font style="padding: 7px;" color="#33a6e7">RADIUS</font>
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@
           </div>
           <div attribute="radius2">
             <div class="radius2" style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">RADIUS2</font>
+              <font style="padding: 7px;" color="#33a6e7">RADIUS2</font>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@
           </div>
           <div attribute="appear">
             <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 0px;" size="5px" color="#33a6e7">APPEAR</font>
+              <font style="padding: 0px;" color="#33a6e7">APPEAR</font>
             </div>
           </div>
         </div>
@@ -117,18 +117,7 @@
           </div>
           <div attribute="enlarge">
             <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">ENLARGE</font>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div>
-            <h2 align="center">Presentation</h2>
-          </div>
-          <div class="presentationboxx">
-            <div class="presentationx">
-              <h1 align="center" class="presentationboxx" style=" border: 2px solid #33a6e7; text-align: center;">PRESENTATION</h1>
+              <font style="padding: 7px;" color="#33a6e7">ENLARGE</font>
             </div>
           </div>
         </div>
@@ -139,7 +128,7 @@
           </div>
           <div attribute="reduction">
             <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">REDUCTION</font>
+              <font style="padding: 7px;" color="#33a6e7">REDUCTION</font>
             </div>
           </div>
         </div>
@@ -150,7 +139,19 @@
           </div>
           <div attribute="scaling">
             <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 0px;" size="5px" color="#33a6e7">SCALING</font>
+              <font style="padding: 0px;" color="#33a6e7">SCALING</font>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h2 align="center">ShowOver</h2>
+          </div>
+          <div attribute="showover" class="showoverbox" style="overflow: hidden;">
+            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
+              <h2 style="font-size: 15px; margin: 1px;">ShowOver</h2>
+	      <button>ASD</button>
             </div>
           </div>
         </div>
@@ -161,29 +162,7 @@
           </div>
           <div attribute="skew">
             <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">SKEW</font>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div>
-            <h2 align="center">Presentation</h2>
-          </div>
-          <div class="presentationboxx">
-            <div class="presentationx">
-              <h1 align="center" class="presentationboxx" style=" border: 2px solid #33a6e7; text-align: center;">PRESENTATION</h1>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div>
-            <h2 align="center">Reduction</h2>
-          </div>
-          <div>
-            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <font style="padding: 7px;" size="5px" color="#33a6e7">REDUCTION</font>
+              <font style="padding: 7px;" color="#33a6e7">SKEW</font>
             </div>
           </div>
         </div>

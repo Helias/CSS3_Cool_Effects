@@ -15,9 +15,21 @@ textarea {
 
 .lightbord div div:nth-child(2) {
   width: 100%;
-  height: 125px;
+  height: 100px;
   padding: 20px;
   border: 5px solid #ededed;  
 }
 
 .lightbord div:hover div:nth-child(2) { border: 5px solid #8fd6ff; cursor: pointer; }
+
+.lightbord div div:nth-child(2) font
+{
+	font-size: 30px;
+}
+.lightbord div div:nth-child(2) {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
