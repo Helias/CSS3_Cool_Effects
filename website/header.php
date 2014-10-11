@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSS3 Cool Effects</title>
 
+    <link rel="shortcut icon" href="../images/favicon.ico">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/font-awesome.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
