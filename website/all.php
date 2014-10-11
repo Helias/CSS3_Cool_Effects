@@ -146,18 +146,6 @@
 
         <div class="col-md-3 col-sm-6">
           <div>
-            <h2 align="center">ShowOver</h2>
-          </div>
-          <div attribute="showover" class="showoverbox" style="overflow: hidden;">
-            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
-              <h2 style="font-size: 15px; margin: 1px;">ShowOver</h2>
-	      <button>ASD</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div>
             <h2 align="center">Skew</h2>
           </div>
           <div attribute="skew">
@@ -167,6 +155,84 @@
           </div>
         </div>
 
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h2 align="center">ShowOver</h2>
+          </div>
+          <div attribute="">
+            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
+              <font style="padding: 7px;" color="#33a6e7">ShowOver</font>
+            </div>
+            <center>
+              <a href="effects/showover.php"><button style="margin : 4px;" class="btn btn-primary btn-xs">Click Me</button></a>
+            </center>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h2 align="center">Hue Rotate</h2>
+          </div>
+          <div attribute="hue_rotate">
+            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
+              <font style="padding: 7px;" color="#33a6e7">Hue Rotate</font>
+            </div>
+            <center>
+              <img src="http://www.w3schools.com/images/incompatible_ie.gif" width="16">
+              <img src="http://www.w3schools.com/images/incompatible_firefox.gif" width="16">
+              <img src="http://www.w3schools.com/images/incompatible_opera.gif" width="16">
+              <img src="http://www.w3schools.com/images/compatible_chrome.gif" width="16">
+              <img src="http://www.w3schools.com/images/compatible_safari.gif" width="16">
+            </center>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h2 align="center">Blur</h2>
+          </div>
+          <div attribute="blur">
+            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
+              <font style="padding: 7px;" color="#33a6e7">Blur</font>
+            </div>
+            <center>
+              <img src="http://www.w3schools.com/images/incompatible_ie.gif" width="16">
+              <img src="http://www.w3schools.com/images/incompatible_firefox.gif" width="16">
+              <img src="http://www.w3schools.com/images/incompatible_opera.gif" width="16">
+              <img src="http://www.w3schools.com/images/compatible_chrome.gif" width="16">
+              <img src="http://www.w3schools.com/images/compatible_safari.gif" width="16">
+            </center>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h2 align="center">Presentation</h2>
+          </div>
+          <div attribute="">
+            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
+              <font style="padding: 7px;" color="#33a6e7">Presentation</font>
+            </div>
+            <center>
+              <a href="effects/presentation.php"><button style="margin : 4px;" class="btn btn-primary btn-xs">Click Me</button></a>
+            </center>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h2 align="center">Zoomin</h2>
+          </div>
+          <div attribute="">
+            <div style="border: 2px solid #33a6e7; width: 100%; text-align: center;">
+              <font style="padding: 7px;" color="#33a6e7">Zoomin</font>
+            </div>
+            <center>
+              <a href="effects/zoomin.php"><button style="margin : 4px;" class="btn btn-primary btn-xs">Click Me</button></a>
+            </center>
+          </div>
+        </div>
+        
       </div>
 
       <hr>

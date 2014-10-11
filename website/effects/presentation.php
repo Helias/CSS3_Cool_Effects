@@ -15,10 +15,7 @@
               <h1 align="center" class="presentationbox" style="border: 2px solid #33a6e7; width: 425px; text-align: center;">CSS3 Cool Effects</h1>
 	  </div>
         </div>
-          <div class="blur">
-            
-          </div>
-	  
+
         </div>
         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 hidden-xs">
           <font size="8">HTML:</font>
