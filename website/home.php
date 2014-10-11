@@ -38,7 +38,6 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Effects <b class="caret"></b></a>
 		<ul class="dropdown-menu">
                   <li><a href="all.php">All</a></li>
-                  <li><a href="images.php">Images</a></li>
                   <li><a href="random.php">Random</a></li>
                 </ul>
               </li>
