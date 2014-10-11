@@ -459,3 +459,42 @@
   -ms-transform: rotateY(120deg);
   transform: rotateY(75deg);
 }
+
+/* Zoomin */
+.zoominbox, .zoominbox:hover, .zoomin, zoomin:hover, .zoomin:hover *, .zoomin * {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.zoominbox {
+  height: 250px;
+  width: 275px;
+}
+.zoomin {
+  border: 10px solid #ededed;
+  overflow: hidden;
+  height: 210px;
+  opacity: 0.6;
+}
+.zoomin:hover {
+  opacity: 1; 
+}
+.zoomin:hover h2 {
+  margin-top: -40px;
+  opacity: 1; 
+  left: 0px;
+}
+.zoomin:hover img {
+      -moz-transform: scale1.2);
+      -o-transform: scale(2);
+      -ms-transform: scale(2);
+      transform: scale(1.2);
+}
+.zoominbox h2 {
+  background-color: white;
+  width: 100px;
+  left: -100px;
+  position: relative;
+}
