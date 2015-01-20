@@ -29,9 +29,7 @@
           <font size="8">HTML:</font>
           <textarea readonly="readonly" cols="45" rows="5">
 
-  <div class="jump">
-    CSS3 Cool Effects
-  </div>
+  <img class="jump" src="image">
 </textarea>
           <br>
           <font size="8">CSS:</font>
@@ -68,7 +66,7 @@
           <font size="6">HTML:</font><br><br>
           <textarea readonly="readonly" cols="40" rows="5">
 
-  <img class="jump" src="images">
+  <img class="jump" src="image">
 </textarea>
           <br>
           <font size="6">CSS:</font><br><br>
