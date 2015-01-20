@@ -58,6 +58,17 @@
 
         <div class="col-md-3 col-sm-6">
           <div>
+            <h2 align="center">Jump</h2>
+          </div>
+          <div attribute="jump">
+            <div style="text-align: center; margin: 20px;">
+              <img class="jump" src="images/favicon.ico" width="27" height="32">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div>
             <h2 align="center">Show</h2>
           </div>
           <div attribute="show">

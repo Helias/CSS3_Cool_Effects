@@ -1,11 +1,11 @@
     <?php include "../header.php"; ?>
 
       <h1>&nbsp;&nbsp;3D Button</h1>
-      <img src="http://www.w3schools.com/images/compatible_ie.gif">
-      <img src="http://www.w3schools.com/images/compatible_firefox.gif">
-      <img src="http://www.w3schools.com/images/compatible_opera.gif">
-      <img src="http://www.w3schools.com/images/compatible_chrome.gif">
-      <img src="http://www.w3schools.com/images/compatible_safari.gif">
+      <img class="jump" src="http://www.w3schools.com/images/compatible_ie.gif">
+      <img class="jump" src="http://www.w3schools.com/images/compatible_firefox.gif">
+      <img class="jump" src="http://www.w3schools.com/images/compatible_opera.gif">
+      <img class="jump" src="http://www.w3schools.com/images/compatible_chrome.gif">
+      <img class="jump" src="http://www.w3schools.com/images/compatible_safari.gif">
       <br><br>
       <div class="row">
         <div class="col-md-4 hidden-xs">

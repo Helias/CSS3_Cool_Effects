@@ -360,3 +360,13 @@
   left: -100px;
   position: relative;
 }
+
+/* Jump */
+.jump {
+  transition: all 0.2s;
+}
+.jump:hover {
+  transition: all 0.2s;
+  margin-top: -10px;
+} 
+  
